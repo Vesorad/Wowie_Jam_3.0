@@ -20,7 +20,7 @@ dialog początek: „Co to za dźwięki?”
 
 dialog koniec: „Spakowałam Twoje rzeczy. Nie ma tutaj już na Ciebie miejsca.”
 
-dialog przy „wygraniu” ze śmiercią: „To pewnie myszy, tylko nie stać mnie na pułapki.”
+dialog przy „wygraniu” ze śmiercią: „To pewnie tylko myszy, tylko nie stać mnie na pułapki.”
 
 AD. poziom 4
 
