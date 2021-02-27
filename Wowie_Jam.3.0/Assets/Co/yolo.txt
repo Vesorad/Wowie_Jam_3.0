@@ -1,1 +1,69 @@
-eluwina
+AD. poziom 1
+
+dialog początek: „Szef prosi Pana o wstawieniu się w jego biurze.”
+
+dialog koniec: „Witaj, mam dla Ciebie dwie wiadomości, dobrą i złą.Którą chcesz usłyszeć pierwszą?a) złą - w naszej firmie nadeszły cięcia kosztów. Jesteś zwolniony.
+b) dobrą - będziesz dzisiaj szybciej w domu, będziesz miał jeszcze dużo czasu dla siebie.
+dialog przy „wygraniu” ze śmiercią: „Nie czuję się za dobrze, ale może mi kiedyś przejdzie”
+
+AD. poziom 2
+
+dialog początek: „Będziesz zbierał dzisiaj śmieci, na co się patrzysz, ruszaj się!”
+
+dialog koniec: „Mam wrażenie, że nie przyłożyłeś się do końca do swojej pracy.Obetnę Ci połowę stawki, spokojnie, z czasem pójdzie Ci lepiej”
+
+dialog przy „wygraniu” ze śmiercią: „Następnym razem przyłożę się bardziej, szkoda, że nie mogę zebrać samego siebie.”
+
+AD. poziom 3
+
+dialog początek: „Co to za dźwięki?”
+
+dialog koniec: „Spakowałam Twoje rzeczy. Nie ma tutaj już na Ciebie miejsca.”
+
+dialog przy „wygraniu” ze śmiercią: „To pewnie myszy, tylko nie stać mnie na pułapki.”
+
+AD. poziom 4
+
+dialog początek: „Nie płacił Pan rachunków, odcinamy Panu prąd. Miłego dnia.”
+
+dialog koniec: Płacz
+
+dialog przy „wygraniu” ze śmiercią: „Kupię świeczki, mam nadzieję, że mój dywan je polubi.”
+
+AD. poziom 5
+
+dialog początek: „Zrobię jej niespodziankę, może się ucieszy. Zerwałem dla niej kwiaty sam na polu.”
+
+dialog koniec: „-Znamy się?-Kim jesteś?
+-To ja powinienem się Ciebie o to spytać. Mieszkam tutaj.- ... Gdzie jest moja żona?-Żona? Ah, to pewnie Ty. Cóż, nie musisz już tak na nią mówić.
+Wiem co się między wami stało. Powiedziała mi, że nie dawałeś jej godnego życia.
+Nie czuła już namiętności i nie miałeś jej nawet jak kupić nowej torebki.
+Mam pomysł, może pójdziesz sprzątać te śmieci? Najwidoczniej tylko do tego się nadajesz.
+dialog przy „wygraniu” ze śmiercią: „Mam lepszy pomysł, posadzę je w swojej doniczce,
+i tak pewnie wieczorem zwiędną.”
+
+AD. poziom 6
+
+dialog początek: „Powinienem pooddychać świeżym powietrzem”
+
+dialog koniec: „Tęsknię za moją drugą połówką”
+
+dialog przy „wygraniu” ze śmiercią: „Jestem samowystarczalny, porozmawiam najwyżej z kimś w barze”
+
+AD. poziom 7
+
+dialog początek: „-Tak?-To ja, musimy porozmawiać.”
+
+dialog koniec: „Zmieniłeś się, wyciszyłeś się, nie jesteś taki jak dawniej.
+Mam wrażenie, jakbym Ciebie już nie znał. Musimy ograniczyć nasz kontakt.”
+
+dialog przy „wygraniu” ze śmiercią: „Może wrócę do siebie pospać?
+On i tak o mnie często zapominał”
+
+AD. poziom 8
+
+dialog początek: „...”
+
+dialog koniec: „Jeden skok i będę ponad nimi wszystkimi.”
+
+dialog przy „wygraniu” ze śmiercią: „Może wszystko samo się ułoży.”
