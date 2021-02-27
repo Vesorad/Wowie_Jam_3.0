@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMovment : MonoBehaviour
 {
     public CharacterController2D characterController;
-    public Rigidbody2D rigidbody2D;
     public Animator animator;
 
 
@@ -19,7 +18,7 @@ public class PlayerMovment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.transform.childCount < 3)
+        if (gameObject.transform.Find("Box") == null)
         {
             Movment();
             Jump();

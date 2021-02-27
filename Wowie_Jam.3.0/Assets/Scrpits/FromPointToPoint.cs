@@ -33,7 +33,7 @@ public class FromPointToPoint : MonoBehaviour
     {
         if (collision.gameObject.name =="Player")
         {
-            gameObject.SetActive(false);
+           // gameObject.SetActive(false);
         }
     }
 }
