@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class SliderController : MonoBehaviour
 {
-    Slider slider;
+    public Slider slider;
     private void Start()
     {
         slider = GetComponent<Slider>();

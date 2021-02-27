@@ -31,9 +31,9 @@ public class CamerMovment : MonoBehaviour
     }    
     IEnumerator WaitForSeconds()
     {
-        player.rigidbody2D.constraints = RigidbodyConstraints2D.FreezePosition;
+        player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
         yield return new WaitForSeconds(1);
-        player.rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+        player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
 
         cameraMove = false;
   
