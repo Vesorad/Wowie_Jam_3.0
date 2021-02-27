@@ -48,7 +48,7 @@ dialog początek: „Powinienem pooddychać świeżym powietrzem”
 
 dialog koniec: „Tęsknię za moją drugą połówką”
 
-dialog przy „wygraniu” ze śmiercią: „Jestem samowystarczalny, porozmawiam najwyżej z kimś w barze”
+dialog przy „wygraniu” ze śmiercią: „Jestem samowystarczalny, porozmawiam najwyżej z kimś w barze tracąc się w zapomnieniu.”
 
 AD. poziom 7
 
