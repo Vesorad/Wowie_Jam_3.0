@@ -6,20 +6,15 @@ public class PlayerMovment : MonoBehaviour
 {
     public CharacterController2D characterController;
     public Rigidbody2D rigidbody2D;
-    //public Animator animator;
+    public Animator animator;
 
 
     float horizontalMove = 0f;
     public float runSpeed = 40f;
 
-    CamerMovment[] checkCamersMovment;
     bool jump = false;
     bool crouch = false;
-    void Start()
-    {
-        rigidbody2D = GetComponent<Rigidbody2D>();
-        checkCamersMovment = FindObjectsOfType<CamerMovment>();
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -31,8 +26,10 @@ public class PlayerMovment : MonoBehaviour
 
     private void Movment()
     {
+
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        //animator.SetFloat("Speed", Mathf.Abs(horizontalMove));      
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
     }
 
     private void Jump()

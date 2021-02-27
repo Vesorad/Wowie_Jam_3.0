@@ -5,7 +5,7 @@ using UnityEngine;
 public class CamerMovment : MonoBehaviour
 {
     public bool cameraMove = false;
-    bool back = false;
+   public bool back = false;
     Camera camera;
     Vector3 oldCameraPos;
     public Vector3 newVector = new Vector3 (0,0,-1);
@@ -25,7 +25,6 @@ public class CamerMovment : MonoBehaviour
         {
             oldCameraPos = new Vector3(newVector.x - 18, 0, -1);
             cameraMove = true;
-            new WaitForSeconds(2);
             StartCoroutine(WaitForSeconds());
         }
         
@@ -37,13 +36,14 @@ public class CamerMovment : MonoBehaviour
         player.rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         cameraMove = false;
-        if (back)
+  
+        if(back == false)
         {
-            back = false;
+            back = true;
         }
         else
         {
-            back = true;
+            back = false;
         }
     }
     void Update()
