@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         {
             if (collision.gameObject.tag == "Trash")
             {
-                Debug.Log(collision.gameObject.name);
+                //Debug.Log(collision.gameObject.name);
                 trash += 1;
                 text.text = trash.ToString();
             }
@@ -36,25 +36,21 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 collision.gameObject.transform.parent = this.transform;              
-            }
+            }  
         }
     }
-  /*  private void Update()
+    private void Update()
     {
         if (Input.GetKeyUp(KeyCode.E))
         {
-            if (gameObject.transform.Find("Box") == null)
-            {
-
-            }
-            else
+            if (gameObject.transform.Find("Box") != null)
             {
                 var box = gameObject.transform.Find("Box");
                 box.transform.parent = null;
-            }
+            }      
         }
     }
-  */
+  
     public void SetActiveKey(string color)
     {
         switch (color)

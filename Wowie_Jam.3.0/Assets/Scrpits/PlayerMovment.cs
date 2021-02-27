@@ -19,17 +19,24 @@ public class PlayerMovment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movment();
-        Jump();
-        Crouch();
+        if (this.transform.childCount < 3)
+        {
+            Movment();
+            Jump();
+            Crouch();
+        }
+        else
+        {
+            horizontalMove = 0;
+            float rotation = Input.GetAxis("Horizontal") * (runSpeed / 30) * Time.deltaTime;
+            transform.Translate(rotation, 0, 0);
+        }
     }
 
     private void Movment()
-    {
-
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
+    {       
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));     
     }
 
     private void Jump()
@@ -37,8 +44,12 @@ public class PlayerMovment : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             jump = true;
-            //animator.SetBool("Jump", true);
+            animator.SetBool("Jump", true);
         }
+    }
+    public void OnCrunching(bool isCrouching)
+    {
+        animator.SetBool("Crouch", isCrouching);
     }
     void Crouch()
     {
@@ -59,6 +70,6 @@ public class PlayerMovment : MonoBehaviour
     }
     public void OnLanding()
     {
-        //animator.SetBool("Jump", false);
+        animator.SetBool("Jump", false);
     }
 }
