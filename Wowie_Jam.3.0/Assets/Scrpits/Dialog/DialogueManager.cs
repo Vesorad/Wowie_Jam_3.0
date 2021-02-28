@@ -45,7 +45,20 @@ public class DialogueManager : MonoBehaviour {
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(sentence));
 	}
-
+	public void DisplayBadSentence()
+	{
+		DisplayNextSentence();
+		DisplayNextSentence();
+	}
+	IEnumerator TypeBadSentence(string sentence)
+	{
+		dialogueText.text = "";
+		foreach (char letter in sentence.ToCharArray())
+		{
+			dialogueText.text += letter;
+			yield return null;
+		}
+	}
 	IEnumerator TypeSentence (string sentence)
 	{
 		dialogueText.text = "";
@@ -56,7 +69,7 @@ public class DialogueManager : MonoBehaviour {
 		}
 	}
 
-	void EndDialogue()
+	public void EndDialogue()
 	{
 		animator.SetBool("IsOpen", false);
 	}

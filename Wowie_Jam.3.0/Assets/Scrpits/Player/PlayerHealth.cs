@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void Update()
     {
-  
+
     }
     void TakeDamage(int damage)
     {

@@ -13,11 +13,19 @@ public class PlayerMovment : MonoBehaviour
 
     bool jump = false;
     bool crouch = false;
-
+    Quaternion rotation0 = Quaternion.Euler(0,0,0);
+    private void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
+        if (gameObject.transform.rotation != rotation0)
+        {
+            this.transform.rotation = rotation0;
+        }
         if (gameObject.transform.Find("Box") == null)
         {
             Movment();
