@@ -9,10 +9,12 @@ public class PlayerController : MonoBehaviour
     public int trash;
     public Text text;
     PlayerMovment playerMovment;
+    AudioManager audioManager;
 
     private void Start()
     {
         playerMovment = FindObjectOfType<PlayerMovment>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour
         {
             if (collision.gameObject.tag == "Trash")
             {
+                audioManager.Play("Trash");
                 //Debug.Log(collision.gameObject.name);
                 trash += 1;
                 text.text = trash.ToString();

@@ -30,14 +30,14 @@ public class ScaneManager : MonoBehaviour
     }
     private void OnLevelWasLoaded()
     {
-        if (ActtualScene == 1 ||ActtualScene==8)
+        if (ActtualScene == 1 ||ActtualScene==7||ActtualScene==4)
         {
             StartCoroutine(StartMainGame());
         }
     }
     IEnumerator StartMainGame()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(5);
         NextScene();
     }
     public void NextScene()

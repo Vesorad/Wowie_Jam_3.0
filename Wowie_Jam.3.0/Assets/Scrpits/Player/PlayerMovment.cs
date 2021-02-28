@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovment : MonoBehaviour
 {
     public CharacterController2D characterController;
+    AudioManager audioManager;
     public Animator animator;
 
 
@@ -16,7 +17,7 @@ public class PlayerMovment : MonoBehaviour
     Quaternion rotation0 = Quaternion.Euler(0,0,0);
     private void Start()
     {
-        
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -50,6 +51,7 @@ public class PlayerMovment : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
+            audioManager.Play("Jump");
             jump = true;
             animator.SetBool("Jump", true);
         }

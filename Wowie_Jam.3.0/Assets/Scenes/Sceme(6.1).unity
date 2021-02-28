@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: 3510798641925646543, guid: 5e8d8d1a93088d64781a91a3576b41df,
         type: 3}
       propertyPath: ActtualScene
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4387631415765780264, guid: 5e8d8d1a93088d64781a91a3576b41df,
         type: 3}
@@ -529,7 +529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CHAPTER 1
+  m_Text: CHAPTER 3
 --- !u!222 &1816677675
 CanvasRenderer:
   m_ObjectHideFlags: 0
