@@ -38,7 +38,7 @@ public class ScaneManager : MonoBehaviour
     }
     private void OnLevelWasLoaded()
     {
-        if (ActtualScene == 1 ||ActtualScene==7||ActtualScene==4)
+        if (ActtualScene == 1 ||ActtualScene==7||ActtualScene==4|| ActtualScene == 12|| ActtualScene == 15)
         {
             StartCoroutine(StartMainGame());
         }
