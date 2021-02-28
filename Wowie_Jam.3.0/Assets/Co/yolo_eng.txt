@@ -10,7 +10,10 @@ AD. poziom 2
 
 dialog początek: "-My new boss calling... Hello?
 -You're going to be collecting garbage today, whatever you're looking at, get moving!"
+
 dialog koniec: "I have the impression that you did not really put your effort into your work. I will cut you half the payment, take it easy, you will do better with time."
+
+dialog koniec: Alright.. you did a test day well but it can always be better. For start you won't earn too much but it's all about time.
 
 dialog przy „wygraniu” ze śmiercią: "I'll try harder next time. I wish I could assemble myself with them."
 
