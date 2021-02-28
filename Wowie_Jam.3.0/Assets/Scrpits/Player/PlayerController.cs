@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public bool redKey;
-    public bool yellowKey;
-    public bool blueKey;
+    public bool Key;
     public int trash;
     public Text text;
     PlayerMovment playerMovment;
@@ -48,24 +46,6 @@ public class PlayerController : MonoBehaviour
                 var box = gameObject.transform.Find("Box");
                 box.transform.parent = null;
             }      
-        }
-    }
-  
-    public void SetActiveKey(string color)
-    {
-        switch (color)
-        {
-            case "Red":
-                redKey = true;
-                break;
-            case "Yellow":
-                yellowKey = true;
-                break;
-            case "Blue":
-                blueKey = true;
-                break;
-            default:
-                break;
         }
     }
   
