@@ -1,0 +1,40 @@
+AD. poziom 1
+
+dialog początek: "The boss asks you to go to him."
+dialog koniec: "Hello, Bob. I have two news for you, good and bad. Which one do you want to hear first?"
+
+a) good one ("You will be home faster today. You will have a lot of time to yourself.")
+b) bad one ("Budget cuts have come to our company. You are fired.")
+
+AD. poziom 2
+
+dialog początek: "-My new boss calling... Hello?
+-You're going to be collecting garbage today, whatever you're looking at, get moving!"
+dialog koniec: "I have the impression that you did not really put your effort into your work. I will cut you half the payment, take it easy, you will do better with time."
+
+dialog przy „wygraniu” ze śmiercią: "I'll try harder next time. I wish I could assemble myself with them."
+
+AD. poziom 3
+
+dialog początek: "What are these sounds?
+dialog koniec: "I packed your things. There is no place for you here anymore."
+
+AD. poziom 4
+
+dialog początek: “You haven't paid your bills, we're cutting your electricity. Have a nice day." 
+
+dialog plus: "I will not lie down without a blindfold."
+
+dialog koniec: "*Cried*"
+
+AD. poziom 5
+
+dialog początek: "I should breathe fresh air."
+
+dialog koniec: "I miss her."
+
+AD. poziom 6
+
+dialog początek: "..."
+
+dialog koniec: "One jump and I will be above them all." 
