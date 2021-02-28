@@ -23,6 +23,14 @@ public class ScaneManager : MonoBehaviour
                 ResetScene();
             }
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
     }
     void ResetScene()
     {
@@ -44,5 +52,8 @@ public class ScaneManager : MonoBehaviour
     {
         SceneManager.LoadScene(ActtualScene + 1);
     }
-    
+    public void StartAgainGame()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

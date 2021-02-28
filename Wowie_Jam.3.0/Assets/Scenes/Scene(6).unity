@@ -465,6 +465,8 @@ MonoBehaviour:
     sentences:
     - I have the impression that you did not really put your effort into your work.
       I will cut you half the payment, take it easy, you will do better with time.
+    - Alright.. you did a test day well, but it can always be better. For start you
+      won't earn too much but it's all about time.
 --- !u!4 &119903005
 Transform:
   m_ObjectHideFlags: 0
@@ -1046,6 +1048,56 @@ Transform:
   - {fileID: 1297009255}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &349425478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349425480}
+  - component: {fileID: 349425479}
+  m_Layer: 0
+  m_Name: Boss 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &349425479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349425478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8422749af5cae9a4e954df21ae011e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: New Boss
+    sentences:
+    - 'Alright.. you did a test day well, but it can always be better. For start
+      you won''t earn too much but it''s all about time.
+
+'
+--- !u!4 &349425480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349425478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 936.55194, y: 600.5847, z: -11.476429}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &359319598
 PrefabInstance:
@@ -4808,7 +4860,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.3452282, y: 1.8971558}
+  m_Offset: {x: 3.7597466, y: 1.8971558}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4819,7 +4871,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.535343, y: 12.9925}
+  m_Size: {x: 3.9944534, y: 12.9925}
   m_EdgeRadius: 0
 --- !u!114 &1535604909
 MonoBehaviour:
@@ -4834,6 +4886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueTrigger: {fileID: 119903004}
+  dialogueTrigger2: {fileID: 349425479}
 --- !u!4 &1535604910
 Transform:
   m_ObjectHideFlags: 0
@@ -4986,7 +5039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568852220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.83, y: -2.89, z: 0.7732392}
+  m_LocalPosition: {x: 50.53, y: -2.89, z: 0.7732392}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 51758502}

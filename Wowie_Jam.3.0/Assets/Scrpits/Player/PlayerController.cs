@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         {
             if (collision.gameObject.tag == "Trash")
             {
-                audioManager.Play("Trash");
+                //audioManager.Play("Trash");
                 //Debug.Log(collision.gameObject.name);
                 trash += 1;
                 text.text = trash.ToString();
