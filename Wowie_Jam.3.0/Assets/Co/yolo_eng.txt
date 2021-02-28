@@ -38,3 +38,12 @@ AD. poziom 6
 dialog początek: "..."
 
 dialog koniec: "One jump and I will be above them all." 
+
+
+
+
+
+Ostatni screen: 
+"And then I noticed my only friend ..
+Teddy, my dog ​​who passed away a year ago.
+I love him more than my former life and anybody else."
